@@ -1,0 +1,20 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+Solución:
+
+ Las variables son espacios en donde se guarda información. Esta información pueden ser palabras, oraciones, números, o valores de verdad.
+
+ Las palabras y las oraciones se conocen como strings, en JavaScript se meten entre comillas simples. Por ej: 'esto es un string', 'Carlos'
+
+ Las funciones son actividades, tareas u operaciones que se escriben como en un bloque. Mi forma de entender a las funciones es como si fueran herramientas o trabajadores
+ a los que les doy cierta información (variables de entrada) y me responden con una salida (el valor retornado)
+
+ Las declaraciones 'if' son formas de controlar el flujo de la ejecución, 'si se cumple tal condición, entonces quiero que suceda tal cosa'
+
+ Los valores booleanos son los que aquí he llamado como valores de verdad, sólo pueden valer true o false y sirven para evaluar condiciones.
