@@ -1,0 +1,25 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+En primer lugar, 'for' es una palabra que se utiliza en JavaScript para realizar ciertas tareas en bucle.
+'for' es como una función, espera que le pasen argumentos, que modifican su comportamiento.
+
+ *el primer argumento que se le pasa es una variable, comunmente llamada 'i' o 'j', que funciona
+ como indicador de número de bucle
+ *el segundo argumento es una condición, que mientras se cumpla (sea verdadera) el bucle seguirá ejecutándose
+ *el tercer argumento es algo que se ejecutará al final de cada bucle, por lo general se incrementa aquí
+el valor de la variable utilizada como contador.
+
+&& es un operador lógico binario, idéntico a la compuerta AND. Lo que hace es comparar los valores
+de verdad de los argumentos, si y sólo si ambos son verdaderos entonces el resultado de la operación
+será verdadero, caso contrario será falso.
+
+|| es otro operador lógico binario, en este caso, igual a la compuerta OR. Lo que hace es comparar
+los valores de verdad de los argumentos, y sólo da como resultado FALSO cuando AMBOS son falsos
+simultáneamente, en caso contrario será verdadero.
+
+! es un operador lógico unario, lo que significa que modifica el valor de verdad del único argumento
+que le pasemos, y en este caso emula una compuerta NOT, o niega el valor de verdad del elemento.
+Si le paso 'true' devolverá 'false', y viceversa.
