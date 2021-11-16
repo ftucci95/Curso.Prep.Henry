@@ -1,0 +1,19 @@
+# Homework: Javascript III
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays
+
+Los arrays son arreglos o vectores de ciertos elementos. Estos elementos pueden ser de distintos tipos,
+comúnmente números o strings, aunque también pueden ser booleanos, o mezclar tipos. Se puede
+acceder a los distintos elementos del arreglo según el índice (del 0 en adelante), entre []
+
+Tienen integrados distintos métodos que sirven para obtener información acerca de ellos. Por ej:
+el método .length() permite saber la cantidad de elementos que contiene el array.
+el método .push() inserta un elemento en el final del array.
+el método .unshift() inserta un elemento en el principio.
+de la misma forma que se insertan elementos se pueden eliminar:
+el método .pop() elimina el último elemento, y
+el método .shift() elimina el primero.
