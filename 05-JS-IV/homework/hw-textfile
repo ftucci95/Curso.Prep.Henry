@@ -1,0 +1,34 @@
+# Homework: Javascript IV
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+  Los objetos en JavaScript son variables que contienen distintos tipos de información, generalmente
+  sobre una única cosa en particular. Es decir que intentan describir un objeto a partir de sus
+  cualidades.
+
+  Las propiedades hacen referencia a las cualidades que cada objeto contenga, por ejemplo si defino un
+  objeto 'gato', adentro tenga la propiedad de 'color'.
+
+  Los métodos son funciones que están incorporadas al objeto, por ejemplo en el caso del objeto 'gato'
+  un método podría ser 'maullar', donde solamente imprime por pantalla 'miau'.
+
+  El bucle 'for...in' detecta automáticamente cómo indizar los parámetros, por ejemplo, si tengo un
+  objeto 'gato' e hiciera un 'for (let p in gato) {//...}', la variable 'p' toma la clave o key de
+  cada propiedad.
+
+  Para acceder a los valores de las propiedades se puede hacer mediante la notación de puntos:
+  'objeto.prop' -> me da el valor de la propiedad llamada prop
+  o también se puede utilizar la notación de corchetes, donde es equivalente a lo anterior en caso de
+  usarla así:
+  'objeto['prop']'
+  aunque también se puede utilizar de la siguiente forma:
+  'objeto[array]'
+  donde array contiene una cadena con el nombre de la propiedad a la que deseo acceder.
