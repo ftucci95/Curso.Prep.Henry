@@ -1,0 +1,14 @@
+# Homework: Javascript V
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+* _Constructors_ (de Clases)
+
+Prototype es una propiedad de todas las clases en JavaScript. Lo que nos permite es asignarle métodos a una clase
+sin asignárselos a cada instancia de la clase particularmente, esto sería un mal uso de la memoria disponible.
+
+El constructor de una clase es simplemente una forma de instanciar una clase, en la que se
+le asignan valores a las propiedades del objeto de esa clase.
